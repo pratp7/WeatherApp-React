@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navlink {
+  text-decoration: none;
+}

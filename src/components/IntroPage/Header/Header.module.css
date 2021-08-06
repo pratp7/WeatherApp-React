@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.header span {
+  color: #0b5ed7;
+}
+
+.header h1 {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}

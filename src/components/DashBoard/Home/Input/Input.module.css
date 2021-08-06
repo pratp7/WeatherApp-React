@@ -1,0 +1,41 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h3 {
+  text-align: center;
+}
+
+.form input {
+  margin-right: 2rem;
+  background-color: #09bbc8;
+  width: 33%;
+  padding: 0.3rem;
+  border: 2px solid black;
+}
+.form input:focus,
+.form input:active {
+  outline: none;
+  border: 2px solid white;
+}
+
+.form button {
+  border: none;
+  padding: 0.2rem 0.5rem;
+  background-color: blueviolet;
+  border-radius: 3px;
+  color: white;
+}
+
+.form button:active {
+  transform: scaleX(0.98);
+  background-color: rgb(162, 78, 240);
+}
+.error {
+  margin: 0 auto;
+  max-width: 10rem;
+  width: 90%;
+  text-align: center;
+  margin-top: 2rem;
+}
